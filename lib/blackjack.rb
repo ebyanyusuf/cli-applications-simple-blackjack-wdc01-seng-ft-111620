@@ -54,4 +54,18 @@ def deal_card
    puts "Please enter a valid command"
  end
  
+ def runner
+   
+   welcome
+   number = initial_round
+   until number > 21 do
+   total = hit?(number)
+   display_card_total(total)
+   number= total
+   end
+
+   end_game(number)
+   # binding.pry
+
+ end
  
