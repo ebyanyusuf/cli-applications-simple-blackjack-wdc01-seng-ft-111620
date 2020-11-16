@@ -48,4 +48,9 @@ def deal_card
      return get_user_input
    end
    
-   
+   def invalid_command
+  
+   puts "Please enter a valid command"
+ end
+ 
+ 
