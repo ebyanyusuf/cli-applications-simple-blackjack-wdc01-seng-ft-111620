@@ -15,4 +15,9 @@ def deal_card
    puts "Type 'h' to hit or 's' to stay"
  end
  
+ def get_user_input
+  
+   gets.chomp
+ end
+ 
  
