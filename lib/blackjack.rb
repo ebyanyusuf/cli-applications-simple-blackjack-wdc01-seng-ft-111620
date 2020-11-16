@@ -47,6 +47,7 @@ def deal_card
      prompt_user
      return get_user_input
    end
+ end
    
    def invalid_command
   
